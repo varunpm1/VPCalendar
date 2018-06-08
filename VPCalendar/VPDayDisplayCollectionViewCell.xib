@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="VPDayDisplayCollectionViewCell" customModule="VPCalendarExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IrK-oG-Nov">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="IrK-oG-Nov" secondAttribute="height" multiplier="1:1" id="4nS-DL-xUZ"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dST-FQ-BhZ">
+                        <rect key="frame" x="12" y="12" width="26.5" height="26.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="dST-FQ-BhZ" secondAttribute="height" multiplier="1:1" id="pzL-lM-9fR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="dST-FQ-BhZ" secondAttribute="bottom" id="2NO-O6-Rwl"/>
+                <constraint firstItem="IrK-oG-Nov" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="3TO-lj-qAa"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="IrK-oG-Nov" secondAttribute="bottom" id="7jb-sK-bLH"/>
+                <constraint firstItem="IrK-oG-Nov" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9MP-ZX-FfS"/>
+                <constraint firstItem="dST-FQ-BhZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="DCu-hy-opO"/>
+                <constraint firstItem="IrK-oG-Nov" firstAttribute="top" relation="greaterThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="top" id="L9R-xi-yPy"/>
+                <constraint firstAttribute="bottom" secondItem="IrK-oG-Nov" secondAttribute="bottom" priority="250" id="TNV-Qp-zOi"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="IrK-oG-Nov" secondAttribute="trailing" id="U3a-XM-SLi"/>
+                <constraint firstItem="dST-FQ-BhZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" priority="250" id="hzz-kC-y1O"/>
+                <constraint firstItem="dST-FQ-BhZ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ZTg-uK-7eu" secondAttribute="top" id="jsX-UJ-wjF"/>
+                <constraint firstItem="dST-FQ-BhZ" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="m06-bV-aST"/>
+                <constraint firstAttribute="trailing" secondItem="IrK-oG-Nov" secondAttribute="trailing" priority="250" id="myy-iU-xJJ"/>
+                <constraint firstAttribute="bottom" secondItem="dST-FQ-BhZ" secondAttribute="bottom" priority="250" id="nC4-Qa-tqo"/>
+                <constraint firstItem="IrK-oG-Nov" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" priority="250" id="pEj-3S-d9U"/>
+                <constraint firstAttribute="trailing" secondItem="dST-FQ-BhZ" secondAttribute="trailing" priority="250" id="pzl-RU-DDR"/>
+                <constraint firstItem="dST-FQ-BhZ" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="rGA-9o-WVM"/>
+                <constraint firstItem="IrK-oG-Nov" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" priority="250" id="stT-W2-oqt"/>
+                <constraint firstItem="dST-FQ-BhZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" priority="250" id="t6r-Hw-STK"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dST-FQ-BhZ" secondAttribute="trailing" id="vL3-Nq-fbS"/>
+                <constraint firstItem="IrK-oG-Nov" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="zjF-LW-QKV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="currentDateDisplayView" destination="IrK-oG-Nov" id="gSD-bc-QAK"/>
+                <outlet property="dayDisplayLabel" destination="dST-FQ-BhZ" id="xfk-xr-EIE"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
