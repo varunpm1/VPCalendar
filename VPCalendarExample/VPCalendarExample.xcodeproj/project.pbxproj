@@ -25,6 +25,7 @@
 		8BEBC235204EA7390088F492 /* VPCalendarExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBC234204EA7390088F492 /* VPCalendarExampleUITests.swift */; };
 		8BEBC244204EA86D0088F492 /* VPCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBC243204EA86D0088F492 /* VPCalendarView.swift */; };
 		8BEBC246204EA92C0088F492 /* VPCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBC245204EA92C0088F492 /* VPCalendarView.xib */; };
+		8BFA804320CAA9CA0076F679 /* VPMonthDisplayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA804220CAA9CA0076F679 /* VPMonthDisplayVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		8BEBC236204EA7390088F492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BEBC243204EA86D0088F492 /* VPCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPCalendarView.swift; sourceTree = "<group>"; };
 		8BEBC245204EA92C0088F492 /* VPCalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VPCalendarView.xib; sourceTree = "<group>"; };
+		8BFA804220CAA9CA0076F679 /* VPMonthDisplayVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPMonthDisplayVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				8BEBC245204EA92C0088F492 /* VPCalendarView.xib */,
 				8B7A1AB020C57A3B000DBB4B /* VPYearDisplayCollectionReusableView.swift */,
 				8B7A1AB120C57A3B000DBB4B /* VPYearDisplayCollectionReusableView.xib */,
+				8BFA804220CAA9CA0076F679 /* VPMonthDisplayVM.swift */,
 				8BC7A57A2051462F00B3E74D /* VPMonthDisplayCollectionViewCell.swift */,
 				8BC7A57B2051462F00B3E74D /* VPMonthDisplayCollectionViewCell.xib */,
 				8B7A1AAC20C5790A000DBB4B /* VPMonthDisplayCollectionReusableView.swift */,
@@ -317,6 +320,7 @@
 				8B7A1AA720C5655A000DBB4B /* VPDayDisplayCollectionViewCell.swift in Sources */,
 				8BEBC217204EA7390088F492 /* ViewController.swift in Sources */,
 				8BEBC215204EA7390088F492 /* AppDelegate.swift in Sources */,
+				8BFA804320CAA9CA0076F679 /* VPMonthDisplayVM.swift in Sources */,
 				8B7A1AB220C57A3B000DBB4B /* VPYearDisplayCollectionReusableView.swift in Sources */,
 				8B7A1AAE20C5790A000DBB4B /* VPMonthDisplayCollectionReusableView.swift in Sources */,
 				8B7A1AAB20C5672B000DBB4B /* DateHelper.swift in Sources */,

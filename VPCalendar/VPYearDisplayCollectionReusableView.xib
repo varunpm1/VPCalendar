@@ -23,6 +23,7 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="0gb-Y9-RfA" secondAttribute="bottom" id="VJe-BU-Sro"/>
                 <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="0gb-Y9-RfA" secondAttribute="trailing" id="lsL-Nl-vLm"/>
