@@ -1,0 +1,16 @@
+PODS:
+  - VPCalendar (0.1.0)
+
+DEPENDENCIES:
+  - VPCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  VPCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VPCalendar: 3f1342c4cb50c5789f92f1e51b847b59ed52f825
+
+PODFILE CHECKSUM: 00f2bf05470dd2fd5245438374ec26a373ea187f
+
+COCOAPODS: 1.5.3

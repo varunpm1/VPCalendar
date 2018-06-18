@@ -1,0 +1,6 @@
+framework module Pods_VPCalendar_Tests {
+  umbrella header "Pods-VPCalendar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

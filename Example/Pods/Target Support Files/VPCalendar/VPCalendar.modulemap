@@ -1,0 +1,6 @@
+framework module VPCalendar {
+  umbrella header "VPCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

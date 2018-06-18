@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VPCalendar_Example' do
+  pod 'VPCalendar', :path => '../'
+
+  target 'VPCalendar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
